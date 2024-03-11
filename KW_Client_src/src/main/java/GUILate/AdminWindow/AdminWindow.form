@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUILate.AdminWindow.AdminWindow">
+  <grid id="27dc6" binding="adminPanel" layout-manager="GridLayoutManager" row-count="9" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="617" height="289"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="a663a" class="javax.swing.JLabel" binding="text">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Добро пожаловать, Администратор!"/>
+        </properties>
+      </component>
+      <component id="1c2ab" class="javax.swing.JButton" binding="compButton">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Компании"/>
+        </properties>
+      </component>
+      <component id="4fc0d" class="javax.swing.JButton" binding="indicatorsButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Финансовые Показатели"/>
+        </properties>
+      </component>
+      <component id="b8d55" class="javax.swing.JButton" binding="reportsButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Финансовые отчеты"/>
+        </properties>
+      </component>
+      <component id="add86" class="javax.swing.JButton" binding="recordsButton">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Инфо о компании"/>
+        </properties>
+      </component>
+      <component id="1ccde" class="javax.swing.JButton" binding="adminsButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Администраторы"/>
+        </properties>
+      </component>
+      <component id="eabde" class="javax.swing.JButton" binding="usersButton">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Пользователи"/>
+        </properties>
+      </component>
+      <vspacer id="6809b">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="78717" class="javax.swing.JButton" binding="diagramSpecialButton">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="прибыль компании от продажи товаров/услуг"/>
+        </properties>
+      </component>
+      <component id="97965" class="javax.swing.JLabel" binding="txt">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Диаграммы"/>
+        </properties>
+      </component>
+      <component id="40e3f" class="javax.swing.JButton" binding="diagramUsersNRolesButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Аккаунты и роли"/>
+        </properties>
+      </component>
+      <component id="44d5a" class="javax.swing.JButton" binding="diagramLicvButton">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ликвидность в %"/>
+        </properties>
+      </component>
+      <component id="85ed0" class="javax.swing.JButton" binding="EmployeesButton">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Сотрудники"/>
+        </properties>
+      </component>
+      <component id="991ff" class="javax.swing.JButton" binding="PNSButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Продукты и услуги компаний"/>
+        </properties>
+      </component>
+      <component id="377fc" class="javax.swing.JButton" binding="diagramPribilButton">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="прибыльность в %"/>
+        </properties>
+      </component>
+      <component id="697e6" class="javax.swing.JButton" binding="salButton">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Зарплаты сотрудников компаний"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
